@@ -1,16 +1,16 @@
-(function () {
-  'use strict';
+(async function () {
+    'use strict';
 
-  /*const source = String.raw`
+window.source_helloworld = String.raw`
 #include <stdio.h>
 
 
 int main() {
   printf("hello world!\n");
 }
-`*/
+`
 
-  /*const source = String.raw`
+window.source_emscriptentimer = String.raw`
 #include <emscripten.h>
 #include <stdio.h>
 
@@ -22,9 +22,9 @@ void timer(void *) {
 }
 
 int main() { timer(nullptr); }
-`*/
-/*
-const source = String.raw`
+`
+
+window.source_emscriptenidbstore = String.raw`
 #include <emscripten.h>
 
 
@@ -34,10 +34,10 @@ int main() {
   return 0;
 }
 `
-*/
 
-/*
-const source = String.raw`
+
+
+window.source_filewrite = String.raw`
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -52,9 +52,9 @@ int main () {
    return(0);
 }
 `
-*/
-/*
-const source = String.raw`
+
+
+window.source_emscriptenrunscript = String.raw`
 #include <emscripten.h>
 #include <stdio.h>
 using namespace std;
@@ -72,10 +72,10 @@ auto script = R"(
 
 int main() { emscripten_run_script(script); }
 `
-*/
 
-/*
-const source = String.raw`
+
+
+window.source_range = String.raw`
 // cib:{"fetch":"range-v3-0.3.0.zip", "system_includes":["range-v3-0.3.0/include"], "unzip_compiler":true}
 
 #include <iostream>
@@ -113,9 +113,9 @@ int main()
     }
 }
 `
-*/
 
-const source = String.raw`
+
+window.source_armadillo = String.raw`
 // cib:{"fetch":"armadillo-9.200.7.zip", "system_includes":["include"], "unzip_compiler":true}
 
 #define ARMA_DONT_USE_LAPACK
@@ -137,55 +137,29 @@ using namespace arma;
 int main()
   {
 
-mat A = randu<mat>(4,5);
+  mat A = randu<mat>(4,5);
   mat B = randu<mat>(4,5);
-     printf("%f\n", A[0]);
+  printf("%f\n", A[1]);
   return 0;
   }
 `
 
+
 // From the process-runtime worker:
 // emModule.FS.readFile('/file.txt', { encoding: 'utf8' })
-  
-  let clangOutput;
 
-  const runtime = new ProcessManager('runtime', 'runtime');
-  runtime.print = ({text}) => console.log(text); 
-  runtime.printErr = ({text}) => console.error(text);
-  runtime.workerRunDone = args => {
-      console.log('done running');
-  };
 
-  const run = function () {
-      runtime.worker.postMessage({
-            function: 'run',
-            wasmBinary: clangOutput,
-      });
-  };
+const [compilerRefnum, runtimeRefnum] = await Promise.all([
+    window.cib_wrapper.createCompiler(),
+    window.cib_wrapper.createRuntime()
+]);
 
-  const clang = new ProcessManager('clang', 'clang');
-  clang.print = ({text}) => console.log(text); 
-  clang.printErr = ({text}) => console.error(text);
-  clang.workerCompileDone = function (args) {
-      if (args.result)
-          console.log('wasm size: ' + args.result.length + '\n');
-      clangOutput = args.result;
- 
-      run();
-  };
-  
-  
-  window.compile = function (src) {
-      if (!src) src = source;
-      clangOutput = undefined;
-      clang.worker.postMessage({
-          function: 'compile',
-          code: src,
-      });
-  }
-  
+// const wasm = await window.cib_wrapper.executeCompiler(compilerRefnum, source);
+// await window.cib_wrapper.executeRuntime(runtimeRefnum, wasm);
 
-  clang.start();
-  runtime.start();
+window.compileAndRun = async function (source) {
+    const wasm = await window.cib_wrapper.executeCompiler(compilerRefnum, source);
+    await window.cib_wrapper.executeRuntime(runtimeRefnum, wasm);
+};
 
 }());
