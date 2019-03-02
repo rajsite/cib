@@ -21,8 +21,8 @@
 'use strict';
 
 importScripts('process.js');
-importScripts('zip.js/zip.js');
-importScripts('zip.js/inflate.js');
+importScripts('zip.js');
+importScripts('inflate.js');
 
 zip.useWebWorkers = false;
 
