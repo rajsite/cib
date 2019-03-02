@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="205D6F24727D208B356EC5FA884F037482A1F6F07C475F6D5F5C204253DC5B86F957AC830074B4A4753CCF53ADE3AAE7237A16DA0835E144063CC9AED0E0ECBB" Timestamp="1D4CCAC69E28EEC" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="6.4.0.2633" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="6.1.0.1" Version="6.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.4.0.2631" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
+		<ApplicationVersionInfo Build="6.4.0.2633" Name="LabVIEW NXG" Version="3.1.0" />
+	</SourceModelFeatureSet>
+	<DistributionDefinition Company="National Instruments" ContentType="Binary" Product="WebApp" ShortDescription="National Instruments cib" TargetedProduct="LabVIEWPdp" Version="1.0.0.1" xmlns="http://www.ni.com/GComponent.xsd">
+		<DistributionOutput CachedDisplayName="Package" Id="ed55584bf9b4495b912b71e5445122c5" OutputTypeIdentifier="DistributionOutputType:NiPackage" p3:CustomNipmPackageName="nationalinstruments-cib" p3:DistributionCategory="Application" p3:MaintainerEmail="milan.raj@ni.com" p3:MaintainerName="National Instruments" p3:PackageDisplayName="Package" xmlns:p3="http://www.ni.com/GComponent.xsd" />
+		<DistributionBuildTarget Id="e43936e076364920890982fa053f17ec" Target="::Web Server" />
+		<DistributionMemberDependencySource Id="3b04fd7bb66749a6ab07460ed78ad9ee" MemberContentType="Component" RootLocation="ApplicationFiles_64" Target="::Web Server::Interactive::WebApp.gcomp" />
+	</DistributionDefinition>
+</SourceFile>

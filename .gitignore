@@ -5,3 +5,5 @@ dummy
 install
 repos
 download
+Builds/
+.cache

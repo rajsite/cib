@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="807215D263A203239D7C7DD09D625D7497AE8855911A73A164B1EBDF56A22AE936DC3B746249E9B3BBAE76EA2F99EEE93535B2DC0011461E30E8064CC2FCCD5C" Timestamp="1D4D14424539876" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="6.4.0.2801" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="6.1.0.1" Version="6.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.4.0.2801" FeatureSetName="JavaScript Library" Name="http://www.ni.com/JavaScriptLibrary" OldestCompatibleVersion="6.4.0.0" Version="6.4.0.0" />
+		<ParsableNamespace AssemblyFileVersion="6.4.0.2801" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
+		<ApplicationVersionInfo Build="6.4.0.2801" Name="LabVIEW NXG" Version="3.1.0" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition DefaultConfigurationName="Configuration1" Id="d609e4091ea04a528735ecd853419e2b" RootNamespaceId="2844d37799784d05b9d9adb16b4251a4" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="5524468e099f4afcbb8f8a0bf791ad70" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="5e6e657e059f481095d2e554dd66154d" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="4599efe6deeb4e14a7d300f23759b119" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="86814969c61649209ad4510fff3120cf" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration Id="5f0abcc5a0514689b7e3ef46628fc12b" Name="Configuration1">
+			<CompilerSymbolTable Id="b612f7742b374044b01bf52dba1a9651" xmlns="http://www.ni.com/PlatformFramework" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="6c5ca1b0e8c44e6693c8786e25f2957e" Id="a82e4cf13cbe4015ba4e29a6fe1b5ad0" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="7fc2201cbba949979150422e2393f703" Id="a748ada49fec4dfb902aec260717a961" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="9875af59d42a4d24b8301b8c33dd03f2" Id="dd41f8e029c4ec98d62611f93a4cb54" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="332dbf37a53d46fc8c7acf66cebbc168" Id="3994a9b6729149cf83ecd134b18a7e1f" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="fab57cf5da8c464da6b9b889125c697b" Id="c4e7ea0e052c48bfab64262049e91e14" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="d5ce64835ec74753a4e49422c244168e" Id="96bfad37beb040b9af30a2686fe8abfb" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="b49470b9b6444db8b3b1e5f0e733580f" Id="b673eac035d6428c865e58ba847e73e6" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="529ba144324042dc86166795142e4d48" Id="b4f620d1c934384a3c86bb5bbb08fa4" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="be5c1a827c5241ca94d45569ab58a501" Id="e71b104d022e4e5d809efafd1cea79dd" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="e9d786c7604646fd8de7d80625b367a7" Id="bee7bfc491f04597b2e3d2cc7c9c5f77" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="d868b0829143463691a493c5e6ad5750" Id="15bd93ee23324a1e8cb0aaafc1bc5627" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="185aac5465d943b9a3a6d74a3f3365d8" Id="f0bda538de204bed8f5334cffa33ef09" />
+			<ComponentItemProperties AssociatedEnvoyId="611e733a82114fb5be40b108d1ac2aaa" Exported="True" Id="8f87225c34284d3f92301b0b33bf3b0f" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="86c90df4b0b64b748578a76d0381c115" Id="b6fe31b58cb4a84b8a61545d8a1b1f6" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="f30542bca7384f79bcb6258826e85852" Id="611be628e8a46b9b3bc6cf5e50d6f35" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="b02544459cc44879960860d082c12a5" xmlns="http://www.ni.com/PlatformFramework">
+		<ProjectSettings Id="ad6007603a484e5687d8135d142f8fa8" ModelDefinitionType="ProjectSettings" Name="ZProjectSettings" />
+		<EmbeddedDefinitionReference Id="c86ddf9384b0443ba3844c908ee2589e" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="2844d37799784d05b9d9adb16b4251a4" Name="CIB">
+				<EmbeddedDefinitionReference Id="6c5ca1b0e8c44e6693c8786e25f2957e" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="cib_wrapper.js">
+					<ExternalFile>
+						<p.StoragePath>cib_wrapper.js</p.StoragePath>
+					</ExternalFile>
+				</EmbeddedDefinitionReference>
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="7478bf07fabb4f72afad508b54972451" Name="cib">
+					<EmbeddedDefinitionReference Id="7fc2201cbba949979150422e2393f703" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="armadillo-9.200.7.zip">
+						<ExternalFile>
+							<p.StoragePath>"cib\\armadillo-9.200.7.zip"</p.StoragePath>
+						</ExternalFile>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="9875af59d42a4d24b8301b8c33dd03f2" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="clang.data">
+						<ExternalFile>
+							<p.StoragePath>"cib\\clang.data"</p.StoragePath>
+						</ExternalFile>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="332dbf37a53d46fc8c7acf66cebbc168" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="clang.js">
+						<ExternalFile>
+							<p.StoragePath>"cib\\clang.js"</p.StoragePath>
+						</ExternalFile>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="fab57cf5da8c464da6b9b889125c697b" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="clang.wasm">
+						<ExternalFile>
+							<p.StoragePath>"cib\\clang.wasm"</p.StoragePath>
+						</ExternalFile>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="d5ce64835ec74753a4e49422c244168e" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="process-clang.js">
+						<ExternalFile>
+							<p.StoragePath>"cib\\process-clang.js"</p.StoragePath>
+						</ExternalFile>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="b49470b9b6444db8b3b1e5f0e733580f" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="process-manager.js">
+						<ExternalFile>
+							<p.StoragePath>"cib\\process-manager.js"</p.StoragePath>
+						</ExternalFile>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="529ba144324042dc86166795142e4d48" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="process-runtime.js">
+						<ExternalFile>
+							<p.StoragePath>"cib\\process-runtime.js"</p.StoragePath>
+						</ExternalFile>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="be5c1a827c5241ca94d45569ab58a501" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="process.js">
+						<ExternalFile>
+							<p.StoragePath>"cib\\process.js"</p.StoragePath>
+						</ExternalFile>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="e9d786c7604646fd8de7d80625b367a7" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="runtime.js">
+						<ExternalFile>
+							<p.StoragePath>"cib\\runtime.js"</p.StoragePath>
+						</ExternalFile>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="d868b0829143463691a493c5e6ad5750" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="runtime.wasm">
+						<ExternalFile>
+							<p.StoragePath>"cib\\runtime.wasm"</p.StoragePath>
+						</ExternalFile>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="185aac5465d943b9a3a6d74a3f3365d8" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="wasm-tools.js">
+						<ExternalFile>
+							<p.StoragePath>"cib\\wasm-tools.js"</p.StoragePath>
+						</ExternalFile>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="86c90df4b0b64b748578a76d0381c115" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="zip.js">
+						<ExternalFile>
+							<p.StoragePath>"cib\\zip.js"</p.StoragePath>
+						</ExternalFile>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="f30542bca7384f79bcb6258826e85852" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="inflate.js">
+						<ExternalFile>
+							<p.StoragePath>"cib\\inflate.js"</p.StoragePath>
+						</ExternalFile>
+					</EmbeddedDefinitionReference>
+				</NameScopingEnvoy>
+				<SourceFileReference Bindings="EnvoyManager" Id="611e733a82114fb5be40b108d1ac2aaa" ModelDefinitionType="{http://www.ni.com/JavaScriptLibrary}JavaScriptLibrary" Name="CIB.jsli" StoragePath="CIB.jsli" />
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="d31d97ca39e24fb4aab5244712ebcf62" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionContentReferenceRoot" Name="CIB.gcomp" NameTracksFileName="True">
+			<ComponentDefinitionContentReferenceRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<ContentReference ContentIdentifier="5f0abcc5a0514689b7e3ef46628fc12b" Id="d33e7214a03c40e9bedb36a046d536ed" Name="Configuration1" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>
