@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="807215D263A203239D7C7DD09D625D7497AE8855911A73A164B1EBDF56A22AE936DC3B746249E9B3BBAE76EA2F99EEE93535B2DC0011461E30E8064CC2FCCD5C" Timestamp="1D4D14424539876" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="9C3994A9B4E71EA5F0F7C11A86CC91EFF635A5B6F66426BDCD7F8CA83BB81A654FFF562131EB199693A639749562AD812A2535B1DC62D23EEB074719DD8DBA77" Timestamp="1D4D14712A36CD6" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.4.0.2801" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="6.1.0.1" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.4.0.2801" FeatureSetName="JavaScript Library" Name="http://www.ni.com/JavaScriptLibrary" OldestCompatibleVersion="6.4.0.0" Version="6.4.0.0" />
@@ -29,7 +29,8 @@
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="185aac5465d943b9a3a6d74a3f3365d8" Id="f0bda538de204bed8f5334cffa33ef09" />
 			<ComponentItemProperties AssociatedEnvoyId="611e733a82114fb5be40b108d1ac2aaa" Exported="True" Id="8f87225c34284d3f92301b0b33bf3b0f" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="86c90df4b0b64b748578a76d0381c115" Id="b6fe31b58cb4a84b8a61545d8a1b1f6" />
-			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="f30542bca7384f79bcb6258826e85852" Id="611be628e8a46b9b3bc6cf5e50d6f35" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="5c9fa4ac1cf44190a8e1381533a3145a" Id="ddc6c84e70684d8b86e6824e0aa1bd1d" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="9bde79685c1540b582ccda72fa8fc1c1" Id="2d8533ae54a34b738f198149622312f8" />
 		</ComponentConfiguration>
 	</ComponentDefinition>
 	<EnvoyManagerFile Id="b02544459cc44879960860d082c12a5" xmlns="http://www.ni.com/PlatformFramework">
@@ -103,13 +104,18 @@
 							<p.StoragePath>"cib\\zip.js"</p.StoragePath>
 						</ExternalFile>
 					</EmbeddedDefinitionReference>
-					<EmbeddedDefinitionReference Id="f30542bca7384f79bcb6258826e85852" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="inflate.js">
+					<EmbeddedDefinitionReference Id="9bde79685c1540b582ccda72fa8fc1c1" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="inflate.js">
 						<ExternalFile>
 							<p.StoragePath>"cib\\inflate.js"</p.StoragePath>
 						</ExternalFile>
 					</EmbeddedDefinitionReference>
 				</NameScopingEnvoy>
 				<SourceFileReference Bindings="EnvoyManager" Id="611e733a82114fb5be40b108d1ac2aaa" ModelDefinitionType="{http://www.ni.com/JavaScriptLibrary}JavaScriptLibrary" Name="CIB.jsli" StoragePath="CIB.jsli" />
+				<EmbeddedDefinitionReference Id="5c9fa4ac1cf44190a8e1381533a3145a" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="cib_wrapper_imports.js">
+					<ExternalFile>
+						<p.StoragePath>cib_wrapper_imports.js</p.StoragePath>
+					</ExternalFile>
+				</EmbeddedDefinitionReference>
 			</NameScopingEnvoy>
 		</EmbeddedDefinitionReference>
 		<NameScopingEnvoy Id="d31d97ca39e24fb4aab5244712ebcf62" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionContentReferenceRoot" Name="CIB.gcomp" NameTracksFileName="True">

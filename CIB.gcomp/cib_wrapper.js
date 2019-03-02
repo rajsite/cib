@@ -99,10 +99,26 @@
     });
   };
 
+  const getSavedResult = function (refnum, name) {
+    return new Promise(function (resolve) {
+      const runtime = refnumManager.getObject(refnum);
+
+      runtime.workerGetSavedResultDone = args => {
+        resolve(args.result);
+      };
+
+      runtime.worker.postMessage({
+        function: 'getSavedResult',
+        name
+      })
+    });
+  };
+
   window.cib_wrapper = {
     createCompiler,
     executeCompiler,
     createRuntime,
-    executeRuntime
+    executeRuntime,
+    getSavedResult
   };
 }());

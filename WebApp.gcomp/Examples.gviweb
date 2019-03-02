@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="947DC98CCCD240451E07C0E279159D59293DA836B48985F8C2B3B4006205E2DFD8D3719BCFAD75C6FEFC7C5B5400818212D9DAAB7CA81EE836AA09A794D53BB3" Timestamp="1D4CCB72A5B0ADE" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="A88950B7A73085827605E452BF622834D2F1BBF786C6355E2DA4B8C015EAE7486ABC12EBD662E1C9D2A2326E08E2470C0041DE10D61C697386445083CDB64279" Timestamp="1D4CCDB8CFE182E" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.4.0.2633" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.4.0.2633" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
@@ -40,7 +40,7 @@
 			<HtmlStringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="ffdbd9deb0b14987927889d668d66799" IsReadOnly="[bool]True" Left="[float]0" MinHeight="[float]24" Name="[string]source" TabIndex="[int]0" Text="{DataItemBinding Id=8e920cbdc91f4ba3a1b765fdc7691ec7}" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 		</FrontPanelUnplacedItems>
 		<BlockDiagram Id="dc91af45fce745d2b38876b4b8145d2c">
-			<CaseStructure Bounds="51 85 594 545" DataType="@fa02df2e548c4c8098f25f0757e6d43a" Id="b77185e33db84fabb11e380819f72a6f" Selected="80cbc35f2ca8435e82524e5612413cca" UserSelectorBounds="194 0 207 17">
+			<CaseStructure Bounds="51 85 594 545" DataType="@a7fbf080a52d45ab82ee305a705d125b" Id="b77185e33db84fabb11e380819f72a6f" Selected="632a7eb11224451991b2a12e1e0ed41a" UserSelectorBounds="194 0 207 17">
 				<CaseStructure.Case Bounds="5 5 584 535" Id="83ec628adbf540079eee9d610a1ab7cb" Pattern="&quot;Hello World&quot;">
 					<Literal Bounds="390 30 160 82" DataType="String" Id="f896d602fd6d44c7aeed50909ca0f18d" xmlns="http://www.ni.com/MocCommon">
 						<p.Data>"#include &lt;stdio.h&gt;\n\n\nint main() {\n  printf("hello world!\\n");\n}"</p.Data>
@@ -83,12 +83,19 @@
 					</Literal>
 					<Wire Id="63f88ff0377461eba2e0c6a97d303f8" Joints="N(75641f95c4f049918adfef3128711c10:Out)|(550,35) N(9192ad2aa2844fdeaabf0e1149e91650:80cbc35f2ca8435e82524e5612413cca)|(580,35)" xmlns="http://www.ni.com/PlatformFramework" />
 				</CaseStructure.Case>
-				<CaseStructure.Selector Bounds="-4 40 13 10" Docking="Left" Id="5394a93fc3144db48f3014a6f92783ee" Terminals="b77185e33db84fabb11e380819f72a6f=cbe4a22cb9514df8a85ec211cf49cf99, 83ec628adbf540079eee9d610a1ab7cb, c3838804842446fc8dd8c49148ac910f, edf067ea72f84b54b97ea40ff08c686f, 892e70b0797744488b7bb6539f96f165, 7deae79b43b4287b6f5d3cc4047798a, 80cbc35f2ca8435e82524e5612413cca" />
-				<CaseStructure.Tunnel Bounds="585 35 13 10" Docking="Right" Id="9192ad2aa2844fdeaabf0e1149e91650" Terminals="b77185e33db84fabb11e380819f72a6f=94eb61b801d0433c9d24d84bfaa8f252, 83ec628adbf540079eee9d610a1ab7cb=b4cf4b6ce3a846efbba00c3055d42b90, c3838804842446fc8dd8c49148ac910f=681c4df8b88541a4838062952c90237f, edf067ea72f84b54b97ea40ff08c686f=586803c683214b5987b3fe1e55a3f47c, 892e70b0797744488b7bb6539f96f165=bf748e6c796c41e390c4754cce714aea, 7deae79b43b4287b6f5d3cc4047798a=36db398ef03d4529bcef78478a704499, 80cbc35f2ca8435e82524e5612413cca=63f88ff0377461eba2e0c6a97d303f8" />
+				<CaseStructure.Case Bounds="5 5 584 535" Id="632a7eb11224451991b2a12e1e0ed41a" Pattern="&quot;Armadillo_in_out&quot;">
+					<Literal Bounds="10 30 540 475" DataType="String" Id="90aa9287bcc64a3195e232e41e762ea6" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>"// cib:{"fetch":"armadillo-9.200.7.zip", "system_includes":["include"], "unzip_compiler":true}\n\n#define ARMA_DONT_USE_LAPACK\n#define ARMA_DONT_USE_BLAS\n#define ARMA_DONT_USE_NEWARP\n#define ARMA_DONT_USE_ARPACK\n#define ARMA_DONT_USE_SUPERLU\n#define ARMA_DONT_USE_HDF5\n#define ARMA_DONT_USE_OPENMP\n\nextern "C" void saveResult(const char* name, void* start, int size);\n\n#include &lt;armadillo&gt;\n#include &lt;stdio.h&gt;\n\nusing namespace std;\nusing namespace arma;\n\nint main() {\n    vec X = randu&lt;vec&gt;(100);\n    cx_vec Y = fft(X, 128);\n    \n    mat B = real(Y);\n\n    saveResult("B", B.memptr(), B.size());\n}\n"</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="20a0dba5a48242518b9243468d35c75b" Joints="N(90aa9287bcc64a3195e232e41e762ea6:Out)|(550,35) N(9192ad2aa2844fdeaabf0e1149e91650:632a7eb11224451991b2a12e1e0ed41a)|(580,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Selector Bounds="-4 40 13 10" Docking="Left" Id="5394a93fc3144db48f3014a6f92783ee" Terminals="b77185e33db84fabb11e380819f72a6f=cbe4a22cb9514df8a85ec211cf49cf99, 83ec628adbf540079eee9d610a1ab7cb, c3838804842446fc8dd8c49148ac910f, edf067ea72f84b54b97ea40ff08c686f, 892e70b0797744488b7bb6539f96f165, 7deae79b43b4287b6f5d3cc4047798a, 80cbc35f2ca8435e82524e5612413cca, 632a7eb11224451991b2a12e1e0ed41a" />
+				<CaseStructure.Tunnel Bounds="585 35 13 10" Docking="Right" Id="9192ad2aa2844fdeaabf0e1149e91650" Terminals="b77185e33db84fabb11e380819f72a6f=94eb61b801d0433c9d24d84bfaa8f252, 83ec628adbf540079eee9d610a1ab7cb=b4cf4b6ce3a846efbba00c3055d42b90, c3838804842446fc8dd8c49148ac910f=681c4df8b88541a4838062952c90237f, edf067ea72f84b54b97ea40ff08c686f=586803c683214b5987b3fe1e55a3f47c, 892e70b0797744488b7bb6539f96f165=bf748e6c796c41e390c4754cce714aea, 7deae79b43b4287b6f5d3cc4047798a=36db398ef03d4529bcef78478a704499, 80cbc35f2ca8435e82524e5612413cca=63f88ff0377461eba2e0c6a97d303f8, 632a7eb11224451991b2a12e1e0ed41a=20a0dba5a48242518b9243468d35c75b" />
 			</CaseStructure>
 			<Wire Id="cbe4a22cb9514df8a85ec211cf49cf99" Joints="N(de02921084d6456194afc7169fc829e1:Value)|(30,130) N(5394a93fc3144db48f3014a6f92783ee:b77185e33db84fabb11e380819f72a6f)|(47,130)" xmlns="http://www.ni.com/PlatformFramework" />
 			<DataAccessor Bounds="-10 125 40 15" DataItem="eaf5ad016b24f2eaf7a5ea3cdebd250" Id="de02921084d6456194afc7169fc829e1" Label="b5ea41d0d3d84140ac6565a4c0addf61" xmlns="http://www.ni.com/MocCommon">
-				<Terminal DataType="@fa02df2e548c4c8098f25f0757e6d43a" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@a7fbf080a52d45ab82ee305a705d125b" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
 			<NodeLabel AttachedTo="de02921084d6456194afc7169fc829e1" Bounds="-62 125 47 14" Id="b5ea41d0d3d84140ac6565a4c0addf61" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>example</p.Text>
@@ -102,7 +109,7 @@
 			<Wire Id="94eb61b801d0433c9d24d84bfaa8f252" Joints="N(9192ad2aa2844fdeaabf0e1149e91650:b77185e33db84fabb11e380819f72a6f)|(649,125) N(c5d5d6477eee4d12932a9cd8cc9667de:Value)|(682,125)" xmlns="http://www.ni.com/PlatformFramework" />
 		</BlockDiagram>
 		<HtmlFrontPanel Height="[float]768" HtmlPanel="[bool]False" Id="483964db34dd4f0b9331b5c9b1409bb8" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]1024" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" />
-		<DataItem CallDirection="Input" CallIndex="0" DataType="@fa02df2e548c4c8098f25f0757e6d43a" Id="eaf5ad016b24f2eaf7a5ea3cdebd250" Name="example" xmlns="http://www.ni.com/MocCommon">
+		<DataItem CallDirection="Input" CallIndex="0" DataType="@a7fbf080a52d45ab82ee305a705d125b" Id="eaf5ad016b24f2eaf7a5ea3cdebd250" Name="example" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>0</p.DefaultValue>
 			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 				<TypeDefinitionTarget TargetName="WebApp::Examples.gtype" />
@@ -113,17 +120,17 @@
 		</DataItem>
 	</VirtualInstrument>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.TypeReference TypeId="fa02df2e548c4c8098f25f0757e6d43a">
-			<Attributed AttributedType="@47512c75c68a4b11836fb88db5d379f9">
+		<p.TypeReference TypeId="a7fbf080a52d45ab82ee305a705d125b">
+			<Attributed AttributedType="@9310f6690842403d9463523dee0850ee">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]WebApp" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="47512c75c68a4b11836fb88db5d379f9">
-			<Typedef TypedefName="Examples.gtype" UnderlyingType="@1170276ac6b64f17bf650f8df215d78c" />
+		<p.TypeReference TypeId="9310f6690842403d9463523dee0850ee">
+			<Typedef TypedefName="Examples.gtype" UnderlyingType="@a227a80e804745838cfab568cb928e25" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="1170276ac6b64f17bf650f8df215d78c">
+		<p.TypeReference TypeId="a227a80e804745838cfab568cb928e25">
 			<Enumeration>
 				<Members>
 					<EnumerationMember Value="0" Name="Hello World" />
@@ -132,6 +139,7 @@
 					<EnumerationMember Value="3" Name="Virtual File System Write" />
 					<EnumerationMember Value="4" Name="Run JavaScript" />
 					<EnumerationMember Value="5" Name="Armadillo" />
+					<EnumerationMember Value="6" Name="Armadillo_in_out" />
 				</Members>
 				<DataType>UInt16</DataType>
 			</Enumeration>

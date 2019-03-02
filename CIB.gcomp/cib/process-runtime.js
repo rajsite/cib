@@ -26,6 +26,7 @@ var wasmExports = {};
 
 if (inWorker) {
     importScripts('process.js');
+    importScripts('../cib_wrapper_imports.js');
     importScripts('wasm-tools.js');
 }
 

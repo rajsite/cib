@@ -1,0 +1,56 @@
+// cib:{"fetch":"armadillo-9.200.7.zip", "system_includes":["include"], "unzip_compiler":true}
+
+#define ARMA_DONT_USE_LAPACK
+#define ARMA_DONT_USE_BLAS
+#define ARMA_DONT_USE_NEWARP
+#define ARMA_DONT_USE_ARPACK
+#define ARMA_DONT_USE_SUPERLU
+#define ARMA_DONT_USE_HDF5
+#define ARMA_DONT_USE_OPENMP
+
+extern "C" void saveResult(const char* name, void* start, int size);
+
+#include <armadillo>
+#include <stdio.h>
+
+using namespace std;
+using namespace arma;
+
+int main() {
+    vec Signal = randu<vec>(1000);
+
+    // Default low-pass from: http://t-filter.engineerjs.com/
+    mat Filter {
+  0.02857983994169657,
+  -0.07328836181028245,
+  0.04512928732568175,
+  0.03422632401030237,
+  -0.034724262386629436,
+  -0.05343090761376418,
+  0.032914528649623416,
+  0.09880818246272206,
+  -0.034135422078843417,
+  -0.3160339484471911,
+  0.5341936566511765,
+  -0.3160339484471911,
+  -0.034135422078843417,
+  0.09880818246272206,
+  0.032914528649623416,
+  -0.05343090761376418,
+  -0.034724262386629436,
+  0.03422632401030237,
+  0.04512928732568175,
+  -0.07328836181028245,
+  0.02857983994169657
+    };
+    
+
+    cx_vec Signal_FFT  = fft(Signal);
+    cx_mat Filter_FFT = fft(Filter);
+
+    
+    mat Signal_Filtered = conv(Signal_FFT, Filter_FFT);
+    mat Signal_Filtered_Real = imag(Signal_Filtered);
+
+    saveResult("Signal_Filtered_Real", Signal_Filtered_Real.memptr(), Signal_Filtered_Real.size());
+}

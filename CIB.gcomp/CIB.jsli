@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="F6DB6A68229F867FB4EB88228037E3A8E9E141B3A7FC7280A2375CA74AF9CD9CE0BC0CE94AB160900C170E761352639B542D8D34ECED36E04AFE00475B92FD8B" Timestamp="1D4CCA52049AEC6" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="15BA06D3C711FD028F0A9674F5D909F249E87CC746409A049C3DE497971090B723EFF22A1574D86BE7017D673DAE490D6F61B82BB5462BA937D4328D48D402DA" Timestamp="1D4CCDBF9B58C4A" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.4.0.2633" FeatureSetName="JavaScript Library" Name="http://www.ni.com/JavaScriptLibrary" OldestCompatibleVersion="6.4.0.0" Version="6.4.0.0" />
 		<ParsableNamespace AssemblyFileVersion="6.4.0.2631" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
@@ -172,6 +172,49 @@
 					</JavaScriptLibraryParameter>
 				</JavaScriptLibraryEntryPoint>
 			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="42b6a6fd8ae549fd9e4e73b916fd0d00" ModelDefinitionType="{http://www.ni.com/JavaScriptLibrary}JavaScriptLibraryEntryPoint" Name="GetSavedResult">
+				<JavaScriptLibraryEntryPoint Id="6e7366931ee4416e948bdeba822cef22" Symbol="cib_wrapper.getSavedResult" xmlns="http://www.ni.com/JavaScriptLibrary">
+					<Icon Id="d0f229a02e2b456a81e5be4383b014e6" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+						<IconPanel Height="[float]40" Id="3f98ad1b71ed44ee89217cd88a92005c" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="ab19355761c445a4ab985c11b0db430c" Left="[float]0" TemplateName="[string]Gray" Top="[float]0" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="f13063701ee546e1a9d98d0650b414c0" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="a9dc00677e6843e98d86e66cc11cadda" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+								<FileNameText Attached="[bool]True" Height="[float]36" Id="5e4a2918a05f466199c2de110be9d5fc" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]GetSavedResult" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]36">
+									<FontSetting FontFamily="Verdana" FontSize="6" Id="ae42ace658e2491681e5e7b42c4fed88" />
+								</FileNameText>
+							</IconTemplate>
+						</IconPanel>
+					</Icon>
+					<ConnectorPane Height="40" Id="cce0b9f6b41246db9962c3e23193001c" ListViewHeight="115" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+						<ConnectorPaneTerminal />
+						<ConnectorPaneTerminal Hotspot="0 15" ListViewHotspot="0 80" Parameter="e724c33c13e47349429a48064f41cee" />
+						<ConnectorPaneTerminal Hotspot="0 25" ListViewHotspot="0 95" Parameter="e26f8840b92b46ea8f1ab1d7299ab990" />
+						<ConnectorPaneTerminal Hotspot="0 35" ListViewHotspot="0 35" Parameter="d72e03dbcbda42a1a33cf48ebbbb3ed9" />
+						<ConnectorPaneTerminal Hotspot="15 0" />
+						<ConnectorPaneTerminal Hotspot="25 0" />
+						<ConnectorPaneTerminal Hotspot="40 5" ListViewHotspot="150 65" Parameter="21cad6f7cbfd40e28b954ce177145b6f" />
+						<ConnectorPaneTerminal Hotspot="40 15" />
+						<ConnectorPaneTerminal Hotspot="40 25" />
+						<ConnectorPaneTerminal Hotspot="40 35" ListViewHotspot="150 50" Parameter="e16d427454954cf7aeb2a655d5721aa6" />
+						<ConnectorPaneTerminal Hotspot="15 40" />
+						<ConnectorPaneTerminal Hotspot="25 40" />
+					</ConnectorPane>
+					<JavaScriptLibraryDiagramParameter CallDirection="Input" Id="d72e03dbcbda42a1a33cf48ebbbb3ed9" IsError="True" Name="error in" />
+					<JavaScriptLibraryDiagramParameter CallDirection="Output" Id="e16d427454954cf7aeb2a655d5721aa6" IsError="True" Name="error out" />
+					<JavaScriptLibraryParameter Id="c92fc2f54cc14965bf4eb8b65ddbc8f1" IsReturnParameter="True" Name="return">
+						<JavaScriptType ActualDataType="@5d78558866fb46e9b89c3fdcd5dd05e0" Id="cfe8e774126849e4a6c52369b6b56014" />
+						<JavaScriptLibraryDiagramParameter CallDirection="Output" Id="21cad6f7cbfd40e28b954ce177145b6f" Name="return" />
+					</JavaScriptLibraryParameter>
+					<JavaScriptLibraryParameter Id="30ff25211b1644eabae4bbd40969a3e7" Name="runtime refnum">
+						<JavaScriptType ActualDataType="@ecc1c90b0ce94876bce3317b87914560" Id="dc86a380c5f34567a4e25d7ba9e9696c" />
+						<JavaScriptLibraryDiagramParameter CallDirection="Input" Id="e724c33c13e47349429a48064f41cee" Name="runtime refnum" />
+					</JavaScriptLibraryParameter>
+					<JavaScriptLibraryParameter Id="b668115d802141a69d4a213df85ee5b2" Name="name">
+						<JavaScriptType ActualDataType="@084d6b0b901d4b1b86b6681c15397cbf" Id="7f377627dd0740aca0213c59fe5e6d46" />
+						<JavaScriptLibraryDiagramParameter CallDirection="Input" Id="e26f8840b92b46ea8f1ab1d7299ab990" Name="name" />
+					</JavaScriptLibraryParameter>
+				</JavaScriptLibraryEntryPoint>
+			</EmbeddedDefinitionReference>
 		</NameScopingEnvoy>
 	</EnvoyManagerFile>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
@@ -198,6 +241,13 @@
 		</p.TypeReference>
 		<p.TypeReference TypeId="62e2c1a31515459ca84618133395e263">
 			<Attributed AttributedType="Void">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.JavaScriptType" Value="[string]" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="5d78558866fb46e9b89c3fdcd5dd05e0">
+			<Attributed AttributedType="Double[]">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.JavaScriptType" Value="[string]" />
 				</AttributeValues>

@@ -160,6 +160,7 @@ const [compilerRefnum, runtimeRefnum] = await Promise.all([
 window.compileAndRun = async function (source) {
     const wasm = await window.cib_wrapper.executeCompiler(compilerRefnum, source);
     await window.cib_wrapper.executeRuntime(runtimeRefnum, wasm);
+    window.runtimeRefnum = runtimeRefnum;
 };
 
 }());
