@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="BED472FA82DA7BCC6BFE5A6C1E2F8CBE5BFEA1EB5A43236CFB245A42ABE93A09890E2D4CF77B9ADB51ED59103546CDF3CAA36351D76B4345723421C68E51D0CC" Timestamp="1D4CCD83E3C6B38" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="F35A81CB312A4DBA5C30838A030844926C6F78D8CF68136B4E78B4CD3522D5A39E6D22C10AFD7D22DAB34825D339B7DF74BF6FA878609D3FB53D450BA40F3E33" Timestamp="1D4D15485F44C8E" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
-		<ParsableNamespace AssemblyFileVersion="6.4.0.2633" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="6.4.0.2633" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="6.2.0.49153" Version="6.2.0.49153" />
-		<ParsableNamespace AssemblyFileVersion="6.4.0.2631" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="6.4.0.2631" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
-		<ApplicationVersionInfo Build="6.4.0.2633" Name="LabVIEW NXG" Version="3.1.0" />
+		<ParsableNamespace AssemblyFileVersion="6.4.0.2801" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.4.0.2801" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="6.2.0.49153" Version="6.2.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="6.4.0.2801" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.4.0.2801" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
+		<ApplicationVersionInfo Build="6.4.0.2801" Name="LabVIEW NXG" Version="3.1.0" />
 	</SourceModelFeatureSet>
-	<TypeDefinition DataType="@a227a80e804745838cfab568cb928e25" Id="6c6d153c08d4497d8350504d7cb5cc26" xmlns="http://www.ni.com/MocCommon">
+	<TypeDefinition DataType="@23e043bd68b84c178631138cd3f45a35" Id="6c6d153c08d4497d8350504d7cb5cc26" xmlns="http://www.ni.com/MocCommon">
 		<Icon Id="f6789173c9a64462bcecff46ffe862ff" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
 			<IconPanel Height="[float]40" Id="47d27486eae743ae9624aa10629169c6" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
 				<IconTemplate Height="[float]40" Id="8e9a471203cc4b16a46707d554e310b4" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
 			</IconPanel>
 		</Icon>
-		<DataItem DataType="@a227a80e804745838cfab568cb928e25" Id="5ed07c28b006438a9738c6ab910a3f83" Name="Enum">
+		<DataItem DataType="@23e043bd68b84c178631138cd3f45a35" Id="5ed07c28b006438a9738c6ab910a3f83" Name="Enum">
 			<p.DefaultValue>0</p.DefaultValue>
 		</DataItem>
 	</TypeDefinition>
@@ -30,6 +30,7 @@
 						<EnumSelectorInfo DisplayValue="[string]Run JavaScript" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]4" ValueType="[Type]UInt16" />
 						<EnumSelectorInfo DisplayValue="[string]Armadillo" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]5" ValueType="[Type]UInt16" />
 						<EnumSelectorInfo DisplayValue="[string]Armadillo_in_out" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]6" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Sigpack" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]7" ValueType="[Type]UInt16" />
 					</EnumSelector>
 					<Label Height="[float]16" Id="9472525b80da4a318eab953f756bb6f5" LabelOwner="[UIModel]64bc0dcc296e42f2abe62adcc60123c3" Left="[float]197" Text="[string]Enum" Top="[float]434" Width="[float]30" xmlns="http://www.ni.com/PanelCommon" />
 				</ControlDefinition>
@@ -37,7 +38,7 @@
 		</NameScopingEnvoy>
 	</EnvoyManagerFile>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.TypeReference TypeId="a227a80e804745838cfab568cb928e25">
+		<p.TypeReference TypeId="23e043bd68b84c178631138cd3f45a35">
 			<Enumeration>
 				<Members>
 					<EnumerationMember Value="0" Name="Hello World" />
@@ -47,6 +48,7 @@
 					<EnumerationMember Value="4" Name="Run JavaScript" />
 					<EnumerationMember Value="5" Name="Armadillo" />
 					<EnumerationMember Value="6" Name="Armadillo_in_out" />
+					<EnumerationMember Value="7" Name="Sigpack" />
 				</Members>
 				<DataType>UInt16</DataType>
 			</Enumeration>

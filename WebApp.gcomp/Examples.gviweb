@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="A88950B7A73085827605E452BF622834D2F1BBF786C6355E2DA4B8C015EAE7486ABC12EBD662E1C9D2A2326E08E2470C0041DE10D61C697386445083CDB64279" Timestamp="1D4CCDB8CFE182E" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="67DAE360FDCD84221A3FBDC467D6B1A880B911077BE3AB9E99A8A297538B34602CD48C6C9D66C477F57979D1A69AE409DB24D864BC6D0B7C2623F28DD172E72B" Timestamp="1D4D157FDBAC5DF" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
-		<ParsableNamespace AssemblyFileVersion="6.4.0.2633" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="6.4.0.2633" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="6.4.0.2633" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="6.2.0.49153" Version="6.2.0.49153" />
-		<ParsableNamespace AssemblyFileVersion="6.4.0.2633" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="6.3.0.49152" Version="6.3.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="6.4.0.2631" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="6.4.0.2631" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
-		<ApplicationVersionInfo Build="6.4.0.2633" Name="LabVIEW NXG" Version="3.1.0" />
+		<ParsableNamespace AssemblyFileVersion="6.4.0.2801" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.4.0.2801" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.4.0.2801" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="6.2.0.49153" Version="6.2.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="6.4.0.2801" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="6.3.0.49152" Version="6.3.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.4.0.2801" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.4.0.2801" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
+		<ApplicationVersionInfo Build="6.4.0.2801" Name="LabVIEW NXG" Version="3.1.0" />
 	</SourceModelFeatureSet>
 	<VirtualInstrument Id="9531e703a314578a8325ef8dd5c094f" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" xmlns="http://www.ni.com/LabVIEW.VI">
 		<Icon Id="dfa13f52336349a1a07d9f19ec0ab5f7" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
@@ -40,76 +40,83 @@
 			<HtmlStringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="ffdbd9deb0b14987927889d668d66799" IsReadOnly="[bool]True" Left="[float]0" MinHeight="[float]24" Name="[string]source" TabIndex="[int]0" Text="{DataItemBinding Id=8e920cbdc91f4ba3a1b765fdc7691ec7}" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 		</FrontPanelUnplacedItems>
 		<BlockDiagram Id="dc91af45fce745d2b38876b4b8145d2c">
-			<CaseStructure Bounds="51 85 594 545" DataType="@a7fbf080a52d45ab82ee305a705d125b" Id="b77185e33db84fabb11e380819f72a6f" Selected="632a7eb11224451991b2a12e1e0ed41a" UserSelectorBounds="194 0 207 17">
-				<CaseStructure.Case Bounds="5 5 584 535" Id="83ec628adbf540079eee9d610a1ab7cb" Pattern="&quot;Hello World&quot;">
+			<CaseStructure Bounds="51 85 740 635" DataType="@fcfc2023f7be4a4ba1c5b36cb35c2cc5" Id="b77185e33db84fabb11e380819f72a6f" Selected="5e1a21828a0341d8bc40656036e25a23" UserSelectorBounds="266 0 207 17">
+				<CaseStructure.Case Bounds="5 5 730 625" Id="83ec628adbf540079eee9d610a1ab7cb" Pattern="&quot;Hello World&quot;">
 					<Literal Bounds="390 30 160 82" DataType="String" Id="f896d602fd6d44c7aeed50909ca0f18d" xmlns="http://www.ni.com/MocCommon">
 						<p.Data>"#include &lt;stdio.h&gt;\n\n\nint main() {\n  printf("hello world!\\n");\n}"</p.Data>
 						<StringBehavior TextDisplayMode="Default" />
 					</Literal>
-					<Wire Id="b4cf4b6ce3a846efbba00c3055d42b90" Joints="N(f896d602fd6d44c7aeed50909ca0f18d:Out)|(550,35) N(9192ad2aa2844fdeaabf0e1149e91650:83ec628adbf540079eee9d610a1ab7cb)|(580,35)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="b4cf4b6ce3a846efbba00c3055d42b90" Joints="N(f896d602fd6d44c7aeed50909ca0f18d:Out)|(550,35) N(9192ad2aa2844fdeaabf0e1149e91650:83ec628adbf540079eee9d610a1ab7cb)|(726,35)" xmlns="http://www.ni.com/PlatformFramework" />
 				</CaseStructure.Case>
-				<CaseStructure.Case Bounds="5 5 584 535" Id="c3838804842446fc8dd8c49148ac910f" Pattern="&quot;Timer&quot;">
+				<CaseStructure.Case Bounds="5 5 730 625" Id="c3838804842446fc8dd8c49148ac910f" Pattern="&quot;Timer&quot;">
 					<Literal Bounds="225 30 325 149" DataType="String" Id="dbd392d8c2944628a99b11d35a27f19" xmlns="http://www.ni.com/MocCommon">
 						<p.Data>"#include &lt;emscripten.h&gt;\n#include &lt;stdio.h&gt;\n\nint counter = 0;\n\nvoid timer(void *) {\n  printf("counter %p: %03d\\n", &amp;counter, counter++);\n  emscripten_async_call(timer, nullptr, 1000);\n}\n\nint main() { timer(nullptr); }"</p.Data>
 						<StringBehavior TextDisplayMode="Default" />
 					</Literal>
-					<Wire Id="681c4df8b88541a4838062952c90237f" Joints="N(dbd392d8c2944628a99b11d35a27f19:Out)|(550,35) N(9192ad2aa2844fdeaabf0e1149e91650:c3838804842446fc8dd8c49148ac910f)|(580,35)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="681c4df8b88541a4838062952c90237f" Joints="N(dbd392d8c2944628a99b11d35a27f19:Out)|(550,35) N(9192ad2aa2844fdeaabf0e1149e91650:c3838804842446fc8dd8c49148ac910f)|(726,35)" xmlns="http://www.ni.com/PlatformFramework" />
 				</CaseStructure.Case>
-				<CaseStructure.Case Bounds="5 5 584 535" Id="edf067ea72f84b54b97ea40ff08c686f" Pattern="&quot;Indexed DB&quot;">
+				<CaseStructure.Case Bounds="5 5 730 625" Id="edf067ea72f84b54b97ea40ff08c686f" Pattern="&quot;Indexed DB&quot;">
 					<Literal Bounds="70 30 480 108" DataType="String" Id="c65796cbe5b747cf9b89d7aa809e3701" xmlns="http://www.ni.com/MocCommon">
 						<p.Data>"#include &lt;emscripten.h&gt;\n\n\nint main() {\n  int hello = 7;\n  emscripten_idb_async_store("THE_DB", "the_secret", &amp;hello, sizeof(int), 0, 0, 0);\n  return 0;\n}"</p.Data>
 						<StringBehavior TextDisplayMode="Default" />
 					</Literal>
-					<Wire Id="586803c683214b5987b3fe1e55a3f47c" Joints="N(c65796cbe5b747cf9b89d7aa809e3701:Out)|(550,35) N(9192ad2aa2844fdeaabf0e1149e91650:edf067ea72f84b54b97ea40ff08c686f)|(580,35)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="586803c683214b5987b3fe1e55a3f47c" Joints="N(c65796cbe5b747cf9b89d7aa809e3701:Out)|(550,35) N(9192ad2aa2844fdeaabf0e1149e91650:edf067ea72f84b54b97ea40ff08c686f)|(726,35)" xmlns="http://www.ni.com/PlatformFramework" />
 				</CaseStructure.Case>
-				<CaseStructure.Case Bounds="5 5 584 535" Id="892e70b0797744488b7bb6539f96f165" Pattern="&quot;Virtual File System Write&quot;">
+				<CaseStructure.Case Bounds="5 5 730 625" Id="892e70b0797744488b7bb6539f96f165" Pattern="&quot;Virtual File System Write&quot;">
 					<Literal Bounds="225 30 325 175" DataType="String" Id="d88ec48a766b4e3790eed88232da3765" xmlns="http://www.ni.com/MocCommon">
 						<p.Data>"#include &lt;stdio.h&gt;\n#include &lt;stdlib.h&gt;\n\nint main () {\n   FILE * fp;\n\n   fp = fopen ("file.txt", "w+");\n   fprintf(fp, "%s %s %s %d", "We", "are", "in", 2012);\n   \n   fclose(fp);\n   \n   return(0);\n}"</p.Data>
 						<StringBehavior TextDisplayMode="Default" />
 					</Literal>
-					<Wire Id="bf748e6c796c41e390c4754cce714aea" Joints="N(d88ec48a766b4e3790eed88232da3765:Out)|(550,35) N(9192ad2aa2844fdeaabf0e1149e91650:892e70b0797744488b7bb6539f96f165)|(580,35)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="bf748e6c796c41e390c4754cce714aea" Joints="N(d88ec48a766b4e3790eed88232da3765:Out)|(550,35) N(9192ad2aa2844fdeaabf0e1149e91650:892e70b0797744488b7bb6539f96f165)|(726,35)" xmlns="http://www.ni.com/PlatformFramework" />
 				</CaseStructure.Case>
-				<CaseStructure.Case Bounds="5 5 584 535" Id="7deae79b43b4287b6f5d3cc4047798a" Pattern="&quot;Run JavaScript&quot;">
+				<CaseStructure.Case Bounds="5 5 730 625" Id="7deae79b43b4287b6f5d3cc4047798a" Pattern="&quot;Run JavaScript&quot;">
 					<Literal Bounds="280 30 270 215" DataType="String" Id="3f8a2120c0a44c2e8b5434a84e5d2667" xmlns="http://www.ni.com/MocCommon">
 						<p.Data>"#include &lt;emscripten.h&gt;\n#include &lt;stdio.h&gt;\nusing namespace std;\n\nauto script = R"(\n    Module.print('Hello from javascript!\\n');\n\n    let i = 0;\n    function count() {\n        Module.print('i = ' + i++);\n        setTimeout(count, 500);\n    }\n    count();\n)";\n\nint main() { emscripten_run_script(script); }"</p.Data>
 						<StringBehavior TextDisplayMode="Default" />
 					</Literal>
-					<Wire Id="36db398ef03d4529bcef78478a704499" Joints="N(3f8a2120c0a44c2e8b5434a84e5d2667:Out)|(550,35) N(9192ad2aa2844fdeaabf0e1149e91650:7deae79b43b4287b6f5d3cc4047798a)|(580,35)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="36db398ef03d4529bcef78478a704499" Joints="N(3f8a2120c0a44c2e8b5434a84e5d2667:Out)|(550,35) N(9192ad2aa2844fdeaabf0e1149e91650:7deae79b43b4287b6f5d3cc4047798a)|(726,35)" xmlns="http://www.ni.com/PlatformFramework" />
 				</CaseStructure.Case>
-				<CaseStructure.Case Bounds="5 5 584 535" Id="80cbc35f2ca8435e82524e5612413cca" Pattern="&quot;Armadillo&quot;">
+				<CaseStructure.Case Bounds="5 5 730 625" Id="80cbc35f2ca8435e82524e5612413cca" Pattern="&quot;Armadillo&quot;">
 					<Literal Bounds="10 30 540 475" DataType="String" Id="75641f95c4f049918adfef3128711c10" xmlns="http://www.ni.com/MocCommon">
-						<p.Data>"// cib:{"fetch":"armadillo-9.200.7.zip", "system_includes":["include"], "unzip_compiler":true}\n\n#define ARMA_DONT_USE_LAPACK\n#define ARMA_DONT_USE_BLAS\n#define ARMA_DONT_USE_NEWARP\n#define ARMA_DONT_USE_ARPACK\n#define ARMA_DONT_USE_SUPERLU\n#define ARMA_DONT_USE_HDF5\n#define ARMA_DONT_USE_OPENMP\n\n\n#include &lt;armadillo&gt;\n#include &lt;stdio.h&gt;\n\nusing namespace std;\nusing namespace arma;\n\nint main() {\n    vec X = randu&lt;vec&gt;(100);\n    cx_vec Y = fft(X, 128);\n    \n    mat B = real(Y);\n\n    mat::iterator it = B.begin();\n    mat::iterator it_end = B.end();\n\n   for(; it != it_end; ++it) {\n    printf("%f\\n",*it);\n   }\n\n\n}"</p.Data>
+						<p.Data>"// cib:{"fetch":"armadillo-9.200.7.zip", "system_includes":["include"], "unzip_compiler":true}\n\n#include &lt;armadillo&gt;\n#include &lt;stdio.h&gt;\n\nusing namespace std;\nusing namespace arma;\n\nint main() {\n    vec X = randu&lt;vec&gt;(100);\n    cx_vec Y = fft(X, 128);\n    \n    mat B = real(Y);\n\n    mat::iterator it = B.begin();\n    mat::iterator it_end = B.end();\n\n   for(; it != it_end; ++it) {\n    printf("%f\\n",*it);\n   }\n\n\n}"</p.Data>
 						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
 					</Literal>
-					<Wire Id="63f88ff0377461eba2e0c6a97d303f8" Joints="N(75641f95c4f049918adfef3128711c10:Out)|(550,35) N(9192ad2aa2844fdeaabf0e1149e91650:80cbc35f2ca8435e82524e5612413cca)|(580,35)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="63f88ff0377461eba2e0c6a97d303f8" Joints="N(75641f95c4f049918adfef3128711c10:Out)|(550,35) N(9192ad2aa2844fdeaabf0e1149e91650:80cbc35f2ca8435e82524e5612413cca)|(726,35)" xmlns="http://www.ni.com/PlatformFramework" />
 				</CaseStructure.Case>
-				<CaseStructure.Case Bounds="5 5 584 535" Id="632a7eb11224451991b2a12e1e0ed41a" Pattern="&quot;Armadillo_in_out&quot;">
+				<CaseStructure.Case Bounds="5 5 730 625" Id="632a7eb11224451991b2a12e1e0ed41a" Pattern="&quot;Armadillo_in_out&quot;">
 					<Literal Bounds="10 30 540 475" DataType="String" Id="90aa9287bcc64a3195e232e41e762ea6" xmlns="http://www.ni.com/MocCommon">
-						<p.Data>"// cib:{"fetch":"armadillo-9.200.7.zip", "system_includes":["include"], "unzip_compiler":true}\n\n#define ARMA_DONT_USE_LAPACK\n#define ARMA_DONT_USE_BLAS\n#define ARMA_DONT_USE_NEWARP\n#define ARMA_DONT_USE_ARPACK\n#define ARMA_DONT_USE_SUPERLU\n#define ARMA_DONT_USE_HDF5\n#define ARMA_DONT_USE_OPENMP\n\nextern "C" void saveResult(const char* name, void* start, int size);\n\n#include &lt;armadillo&gt;\n#include &lt;stdio.h&gt;\n\nusing namespace std;\nusing namespace arma;\n\nint main() {\n    vec X = randu&lt;vec&gt;(100);\n    cx_vec Y = fft(X, 128);\n    \n    mat B = real(Y);\n\n    saveResult("B", B.memptr(), B.size());\n}\n"</p.Data>
+						<p.Data>"// cib:{"fetch":"armadillo-9.200.7.zip", "system_includes":["include"], "unzip_compiler":true}\n\nextern "C" void saveResult(const char* name, void* start, int size);\n\n#include &lt;armadillo&gt;\n#include &lt;stdio.h&gt;\n\nusing namespace std;\nusing namespace arma;\n\nint main() {\n    vec X = randu&lt;vec&gt;(100);\n    cx_vec Y = fft(X, 128);\n    \n    mat B = real(Y);\n\n    saveResult("B", B.memptr(), B.size());\n}\n"</p.Data>
 						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
 					</Literal>
-					<Wire Id="20a0dba5a48242518b9243468d35c75b" Joints="N(90aa9287bcc64a3195e232e41e762ea6:Out)|(550,35) N(9192ad2aa2844fdeaabf0e1149e91650:632a7eb11224451991b2a12e1e0ed41a)|(580,35)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="20a0dba5a48242518b9243468d35c75b" Joints="N(90aa9287bcc64a3195e232e41e762ea6:Out)|(550,35) N(9192ad2aa2844fdeaabf0e1149e91650:632a7eb11224451991b2a12e1e0ed41a)|(726,35)" xmlns="http://www.ni.com/PlatformFramework" />
 				</CaseStructure.Case>
-				<CaseStructure.Selector Bounds="-4 40 13 10" Docking="Left" Id="5394a93fc3144db48f3014a6f92783ee" Terminals="b77185e33db84fabb11e380819f72a6f=cbe4a22cb9514df8a85ec211cf49cf99, 83ec628adbf540079eee9d610a1ab7cb, c3838804842446fc8dd8c49148ac910f, edf067ea72f84b54b97ea40ff08c686f, 892e70b0797744488b7bb6539f96f165, 7deae79b43b4287b6f5d3cc4047798a, 80cbc35f2ca8435e82524e5612413cca, 632a7eb11224451991b2a12e1e0ed41a" />
-				<CaseStructure.Tunnel Bounds="585 35 13 10" Docking="Right" Id="9192ad2aa2844fdeaabf0e1149e91650" Terminals="b77185e33db84fabb11e380819f72a6f=94eb61b801d0433c9d24d84bfaa8f252, 83ec628adbf540079eee9d610a1ab7cb=b4cf4b6ce3a846efbba00c3055d42b90, c3838804842446fc8dd8c49148ac910f=681c4df8b88541a4838062952c90237f, edf067ea72f84b54b97ea40ff08c686f=586803c683214b5987b3fe1e55a3f47c, 892e70b0797744488b7bb6539f96f165=bf748e6c796c41e390c4754cce714aea, 7deae79b43b4287b6f5d3cc4047798a=36db398ef03d4529bcef78478a704499, 80cbc35f2ca8435e82524e5612413cca=63f88ff0377461eba2e0c6a97d303f8, 632a7eb11224451991b2a12e1e0ed41a=20a0dba5a48242518b9243468d35c75b" />
+				<CaseStructure.Case Bounds="5 5 730 625" Id="5e1a21828a0341d8bc40656036e25a23" Pattern="&quot;Sigpack&quot;">
+					<Literal Bounds="10 30 690 570" DataType="String" Id="25339765a8274599b6044e26c8b5ce82" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>"// cib:{"fetch":"armadillo-9.200.7.zip", "system_includes":["include"], "unzip_compiler":true}\n// cib:{"fetch":"sigpack-1.2.5.zip", "system_includes":["sigpack-1.2.5/sigpack"], "unzip_compiler":true}\n\nextern "C" void saveResult(const char* name, void* start, int size);\n\n#include "sigpack.h"\n\nusing namespace std;\nusing namespace arma;\nusing namespace sp;\n\nint main() {\n    vec b;\n    int N = 15;\n    vec X(N,fill::zeros);  // Input sig\n    vec Y(N,fill::zeros);  // Output sig\n\n    // Create a FIR filter\n    FIR_filt&lt;double,double,double&gt; fir_filt;\n    b = fir1(7,0.35);\n    fir_filt.set_coeffs(b);\n    X[0] = 1;  // Impulse\n\n    // Filter the input signal\n    Y = fir_filt.filter(X);\n\n    saveResult("X", X.memptr(), X.size());\n    saveResult("Y", Y.memptr(), Y.size());\n}"</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="85f9cfcaf7f84a99bbd33c10ef45aa68" Joints="N(25339765a8274599b6044e26c8b5ce82:Out)|(700,35) N(9192ad2aa2844fdeaabf0e1149e91650:5e1a21828a0341d8bc40656036e25a23)|(726,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Selector Bounds="-4 40 13 10" Docking="Left" Id="5394a93fc3144db48f3014a6f92783ee" Terminals="b77185e33db84fabb11e380819f72a6f=cbe4a22cb9514df8a85ec211cf49cf99, 83ec628adbf540079eee9d610a1ab7cb, c3838804842446fc8dd8c49148ac910f, edf067ea72f84b54b97ea40ff08c686f, 892e70b0797744488b7bb6539f96f165, 7deae79b43b4287b6f5d3cc4047798a, 80cbc35f2ca8435e82524e5612413cca, 632a7eb11224451991b2a12e1e0ed41a, 5e1a21828a0341d8bc40656036e25a23" />
+				<CaseStructure.Tunnel Bounds="731 35 13 10" Docking="Right" Id="9192ad2aa2844fdeaabf0e1149e91650" Terminals="b77185e33db84fabb11e380819f72a6f=94eb61b801d0433c9d24d84bfaa8f252, 83ec628adbf540079eee9d610a1ab7cb=b4cf4b6ce3a846efbba00c3055d42b90, c3838804842446fc8dd8c49148ac910f=681c4df8b88541a4838062952c90237f, edf067ea72f84b54b97ea40ff08c686f=586803c683214b5987b3fe1e55a3f47c, 892e70b0797744488b7bb6539f96f165=bf748e6c796c41e390c4754cce714aea, 7deae79b43b4287b6f5d3cc4047798a=36db398ef03d4529bcef78478a704499, 80cbc35f2ca8435e82524e5612413cca=63f88ff0377461eba2e0c6a97d303f8, 632a7eb11224451991b2a12e1e0ed41a=20a0dba5a48242518b9243468d35c75b, 5e1a21828a0341d8bc40656036e25a23=85f9cfcaf7f84a99bbd33c10ef45aa68" />
 			</CaseStructure>
 			<Wire Id="cbe4a22cb9514df8a85ec211cf49cf99" Joints="N(de02921084d6456194afc7169fc829e1:Value)|(30,130) N(5394a93fc3144db48f3014a6f92783ee:b77185e33db84fabb11e380819f72a6f)|(47,130)" xmlns="http://www.ni.com/PlatformFramework" />
 			<DataAccessor Bounds="-10 125 40 15" DataItem="eaf5ad016b24f2eaf7a5ea3cdebd250" Id="de02921084d6456194afc7169fc829e1" Label="b5ea41d0d3d84140ac6565a4c0addf61" xmlns="http://www.ni.com/MocCommon">
-				<Terminal DataType="@a7fbf080a52d45ab82ee305a705d125b" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@fcfc2023f7be4a4ba1c5b36cb35c2cc5" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
 			<NodeLabel AttachedTo="de02921084d6456194afc7169fc829e1" Bounds="-62 125 47 14" Id="b5ea41d0d3d84140ac6565a4c0addf61" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>example</p.Text>
 			</NodeLabel>
-			<DataAccessor Bounds="679 120 40 15" DataItem="8e920cbdc91f4ba3a1b765fdc7691ec7" Id="c5d5d6477eee4d12932a9cd8cc9667de" Label="f9f264c8353c4a8faf8694d097115e2c" xmlns="http://www.ni.com/MocCommon">
+			<DataAccessor Bounds="804 120 40 15" DataItem="8e920cbdc91f4ba3a1b765fdc7691ec7" Id="c5d5d6477eee4d12932a9cd8cc9667de" Label="f9f264c8353c4a8faf8694d097115e2c" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType="String" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
-			<NodeLabel AttachedTo="c5d5d6477eee4d12932a9cd8cc9667de" Bounds="724 120 37 14" Id="f9f264c8353c4a8faf8694d097115e2c" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="c5d5d6477eee4d12932a9cd8cc9667de" Bounds="849 120 37 14" Id="f9f264c8353c4a8faf8694d097115e2c" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>source</p.Text>
 			</NodeLabel>
-			<Wire Id="94eb61b801d0433c9d24d84bfaa8f252" Joints="N(9192ad2aa2844fdeaabf0e1149e91650:b77185e33db84fabb11e380819f72a6f)|(649,125) N(c5d5d6477eee4d12932a9cd8cc9667de:Value)|(682,125)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="94eb61b801d0433c9d24d84bfaa8f252" Joints="N(9192ad2aa2844fdeaabf0e1149e91650:b77185e33db84fabb11e380819f72a6f)|(795,125) N(c5d5d6477eee4d12932a9cd8cc9667de:Value)|(807,125)" xmlns="http://www.ni.com/PlatformFramework" />
 		</BlockDiagram>
 		<HtmlFrontPanel Height="[float]768" HtmlPanel="[bool]False" Id="483964db34dd4f0b9331b5c9b1409bb8" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]1024" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" />
-		<DataItem CallDirection="Input" CallIndex="0" DataType="@a7fbf080a52d45ab82ee305a705d125b" Id="eaf5ad016b24f2eaf7a5ea3cdebd250" Name="example" xmlns="http://www.ni.com/MocCommon">
+		<DataItem CallDirection="Input" CallIndex="0" DataType="@fcfc2023f7be4a4ba1c5b36cb35c2cc5" Id="eaf5ad016b24f2eaf7a5ea3cdebd250" Name="example" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>0</p.DefaultValue>
 			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 				<TypeDefinitionTarget TargetName="WebApp::Examples.gtype" />
@@ -120,17 +127,17 @@
 		</DataItem>
 	</VirtualInstrument>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.TypeReference TypeId="a7fbf080a52d45ab82ee305a705d125b">
-			<Attributed AttributedType="@9310f6690842403d9463523dee0850ee">
+		<p.TypeReference TypeId="fcfc2023f7be4a4ba1c5b36cb35c2cc5">
+			<Attributed AttributedType="@f345627fa5f74aab8d4a73a87f9033a0">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]WebApp" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="9310f6690842403d9463523dee0850ee">
-			<Typedef TypedefName="Examples.gtype" UnderlyingType="@a227a80e804745838cfab568cb928e25" />
+		<p.TypeReference TypeId="f345627fa5f74aab8d4a73a87f9033a0">
+			<Typedef TypedefName="Examples.gtype" UnderlyingType="@23e043bd68b84c178631138cd3f45a35" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="a227a80e804745838cfab568cb928e25">
+		<p.TypeReference TypeId="23e043bd68b84c178631138cd3f45a35">
 			<Enumeration>
 				<Members>
 					<EnumerationMember Value="0" Name="Hello World" />
@@ -140,6 +147,7 @@
 					<EnumerationMember Value="4" Name="Run JavaScript" />
 					<EnumerationMember Value="5" Name="Armadillo" />
 					<EnumerationMember Value="6" Name="Armadillo_in_out" />
+					<EnumerationMember Value="7" Name="Sigpack" />
 				</Members>
 				<DataType>UInt16</DataType>
 			</Enumeration>

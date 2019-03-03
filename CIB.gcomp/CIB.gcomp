@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="9C3994A9B4E71EA5F0F7C11A86CC91EFF635A5B6F66426BDCD7F8CA83BB81A654FFF562131EB199693A639749562AD812A2535B1DC62D23EEB074719DD8DBA77" Timestamp="1D4D14712A36CD6" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="AD5D85AC782906E179E795A7814C19638D2525BFC6EF7695C2DCC3806127A1B6CC9FAC8688133B812EABC3C12992D551E1DE96ED4B28561306B2471E57B06497" Timestamp="1D4D15115292C2A" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.4.0.2801" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="6.1.0.1" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.4.0.2801" FeatureSetName="JavaScript Library" Name="http://www.ni.com/JavaScriptLibrary" OldestCompatibleVersion="6.4.0.0" Version="6.4.0.0" />
@@ -31,6 +31,7 @@
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="86c90df4b0b64b748578a76d0381c115" Id="b6fe31b58cb4a84b8a61545d8a1b1f6" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="5c9fa4ac1cf44190a8e1381533a3145a" Id="ddc6c84e70684d8b86e6824e0aa1bd1d" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="9bde79685c1540b582ccda72fa8fc1c1" Id="2d8533ae54a34b738f198149622312f8" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="4bedf52fe4624648b4db62dfaeea8d20" Id="be3b1d2c8eb400e8fceeaf207aa5d66" />
 		</ComponentConfiguration>
 	</ComponentDefinition>
 	<EnvoyManagerFile Id="b02544459cc44879960860d082c12a5" xmlns="http://www.ni.com/PlatformFramework">
@@ -107,6 +108,11 @@
 					<EmbeddedDefinitionReference Id="9bde79685c1540b582ccda72fa8fc1c1" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="inflate.js">
 						<ExternalFile>
 							<p.StoragePath>"cib\\inflate.js"</p.StoragePath>
+						</ExternalFile>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="4bedf52fe4624648b4db62dfaeea8d20" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="sigpack-1.2.5.zip">
+						<ExternalFile>
+							<p.StoragePath>"cib\\sigpack-1.2.5.zip"</p.StoragePath>
 						</ExternalFile>
 					</EmbeddedDefinitionReference>
 				</NameScopingEnvoy>
