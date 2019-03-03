@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="67DAE360FDCD84221A3FBDC467D6B1A880B911077BE3AB9E99A8A297538B34602CD48C6C9D66C477F57979D1A69AE409DB24D864BC6D0B7C2623F28DD172E72B" Timestamp="1D4D157FDBAC5DF" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="0CFE406B2BB756AD0F4D2E1D99D71F4E34D826DA5F67DF786CE325DF1C40707F33B4A8E468F840C26814EECAB5DEBAB01F517D74E31E1BFAB334C122C7575C16" Timestamp="1D4D164E8D73888" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.4.0.2801" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.4.0.2801" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
@@ -40,7 +40,7 @@
 			<HtmlStringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="ffdbd9deb0b14987927889d668d66799" IsReadOnly="[bool]True" Left="[float]0" MinHeight="[float]24" Name="[string]source" TabIndex="[int]0" Text="{DataItemBinding Id=8e920cbdc91f4ba3a1b765fdc7691ec7}" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 		</FrontPanelUnplacedItems>
 		<BlockDiagram Id="dc91af45fce745d2b38876b4b8145d2c">
-			<CaseStructure Bounds="51 85 740 635" DataType="@fcfc2023f7be4a4ba1c5b36cb35c2cc5" Id="b77185e33db84fabb11e380819f72a6f" Selected="5e1a21828a0341d8bc40656036e25a23" UserSelectorBounds="266 0 207 17">
+			<CaseStructure Bounds="51 85 740 635" DataType="@fcfc2023f7be4a4ba1c5b36cb35c2cc5" Id="b77185e33db84fabb11e380819f72a6f" Selected="632a7eb11224451991b2a12e1e0ed41a" UserSelectorBounds="266 0 207 17">
 				<CaseStructure.Case Bounds="5 5 730 625" Id="83ec628adbf540079eee9d610a1ab7cb" Pattern="&quot;Hello World&quot;">
 					<Literal Bounds="390 30 160 82" DataType="String" Id="f896d602fd6d44c7aeed50909ca0f18d" xmlns="http://www.ni.com/MocCommon">
 						<p.Data>"#include &lt;stdio.h&gt;\n\n\nint main() {\n  printf("hello world!\\n");\n}"</p.Data>
@@ -85,7 +85,7 @@
 				</CaseStructure.Case>
 				<CaseStructure.Case Bounds="5 5 730 625" Id="632a7eb11224451991b2a12e1e0ed41a" Pattern="&quot;Armadillo_in_out&quot;">
 					<Literal Bounds="10 30 540 475" DataType="String" Id="90aa9287bcc64a3195e232e41e762ea6" xmlns="http://www.ni.com/MocCommon">
-						<p.Data>"// cib:{"fetch":"armadillo-9.200.7.zip", "system_includes":["include"], "unzip_compiler":true}\n\nextern "C" void saveResult(const char* name, void* start, int size);\n\n#include &lt;armadillo&gt;\n#include &lt;stdio.h&gt;\n\nusing namespace std;\nusing namespace arma;\n\nint main() {\n    vec X = randu&lt;vec&gt;(100);\n    cx_vec Y = fft(X, 128);\n    \n    mat B = real(Y);\n\n    saveResult("B", B.memptr(), B.size());\n}\n"</p.Data>
+						<p.Data>"// cib:{"fetch":"armadillo-9.200.7.zip", "system_includes":["include"], "unzip_compiler":true}\n\nextern "C" void loadInput(const char* name, void* start, int size);\nextern "C" void saveResult(const char* name, void* start, int size);\n\n#include &lt;armadillo&gt;\n#include &lt;stdio.h&gt;\n\nusing namespace std;\nusing namespace arma;\n\nint main() {\n    vec X(100,fill::zeros);\n    loadInput("X", X.memptr(), X.size());\n\n    cx_vec Y = fft(X, 128);\n    mat B = real(Y);\n\n    saveResult("B", B.memptr(), B.size());\n}\n"</p.Data>
 						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
 					</Literal>
 					<Wire Id="20a0dba5a48242518b9243468d35c75b" Joints="N(90aa9287bcc64a3195e232e41e762ea6:Out)|(550,35) N(9192ad2aa2844fdeaabf0e1149e91650:632a7eb11224451991b2a12e1e0ed41a)|(726,35)" xmlns="http://www.ni.com/PlatformFramework" />

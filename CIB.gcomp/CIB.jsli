@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="15BA06D3C711FD028F0A9674F5D909F249E87CC746409A049C3DE497971090B723EFF22A1574D86BE7017D673DAE490D6F61B82BB5462BA937D4328D48D402DA" Timestamp="1D4CCDBF9B58C4A" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="E8E9424B70EF9FF4CD6DAF5E3AC2B23C114C290F36714DFFA1A09B317197BE38E301BCA88F5FFA4FC939D0278F87F8830A1E38FE9F83A7A77144C65D4E2628E4" Timestamp="1D4D1642C1FF3DB" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
-		<ParsableNamespace AssemblyFileVersion="6.4.0.2633" FeatureSetName="JavaScript Library" Name="http://www.ni.com/JavaScriptLibrary" OldestCompatibleVersion="6.4.0.0" Version="6.4.0.0" />
-		<ParsableNamespace AssemblyFileVersion="6.4.0.2631" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
-		<ApplicationVersionInfo Build="6.4.0.2633" Name="LabVIEW NXG" Version="3.1.0" />
+		<ParsableNamespace AssemblyFileVersion="6.4.0.2801" FeatureSetName="JavaScript Library" Name="http://www.ni.com/JavaScriptLibrary" OldestCompatibleVersion="6.4.0.0" Version="6.4.0.0" />
+		<ParsableNamespace AssemblyFileVersion="6.4.0.2801" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
+		<ApplicationVersionInfo Build="6.4.0.2801" Name="LabVIEW NXG" Version="3.1.0" />
 	</SourceModelFeatureSet>
 	<JavaScriptLibrary Id="f87c405e70fa4bd4b6af598be2cd5ee8" xmlns="http://www.ni.com/JavaScriptLibrary">
 		<Icon Id="cf0020ff46784255b045eedd8287666f" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
@@ -212,6 +212,53 @@
 					<JavaScriptLibraryParameter Id="b668115d802141a69d4a213df85ee5b2" Name="name">
 						<JavaScriptType ActualDataType="@084d6b0b901d4b1b86b6681c15397cbf" Id="7f377627dd0740aca0213c59fe5e6d46" />
 						<JavaScriptLibraryDiagramParameter CallDirection="Input" Id="e26f8840b92b46ea8f1ab1d7299ab990" Name="name" />
+					</JavaScriptLibraryParameter>
+				</JavaScriptLibraryEntryPoint>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="60bbc860c2e747b98748fbc8979652fb" ModelDefinitionType="{http://www.ni.com/JavaScriptLibrary}JavaScriptLibraryEntryPoint" Name="SetInputValue">
+				<JavaScriptLibraryEntryPoint Id="4395a0522a684194ba50fd70e6f40172" Symbol="cib_wrapper.setInputValue" xmlns="http://www.ni.com/JavaScriptLibrary">
+					<Icon Id="22806725b12844cb839e08b44617ea57" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+						<IconPanel Height="[float]40" Id="3add7b3974404f369a674c8a47f4c82e" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="192bc22d02b54a869f3d0b519c42cf19" Left="[float]0" TemplateName="[string]Gray" Top="[float]0" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="72f31a6568a8447ca0cc14f69f37d2ee" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="f7490e2375a048a5b9f53889b834483e" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+								<FileNameText Attached="[bool]True" Height="[float]36" Id="1236ad7f6d8a4f9ca4bb29af277f8c3f" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]SetInputValue" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]36">
+									<FontSetting FontFamily="Verdana" FontSize="6" Id="f93210cd333048dfbef83f8547be9c30" />
+								</FileNameText>
+							</IconTemplate>
+						</IconPanel>
+					</Icon>
+					<ConnectorPane Height="40" Id="cc353ee4ab664bc98ca1a72e0ba4b3dd" ListViewHeight="115" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+						<ConnectorPaneTerminal ListViewHotspot="0 65" Parameter="4af21f89e3ff4ed4a1042ccd47b554bf" />
+						<ConnectorPaneTerminal Hotspot="0 15" ListViewHotspot="0 80" Parameter="1bddbe204e9a443ba1f62b2c4f3aadd8" />
+						<ConnectorPaneTerminal Hotspot="0 25" ListViewHotspot="0 95" Parameter="df98f59cd66b4bc3ab4ef8647706d7dc" />
+						<ConnectorPaneTerminal Hotspot="0 35" ListViewHotspot="0 35" Parameter="67f5bcca64474513a2884b8092c2974a" />
+						<ConnectorPaneTerminal Hotspot="15 0" />
+						<ConnectorPaneTerminal Hotspot="25 0" />
+						<ConnectorPaneTerminal Hotspot="40 5" />
+						<ConnectorPaneTerminal Hotspot="40 15" />
+						<ConnectorPaneTerminal Hotspot="40 25" />
+						<ConnectorPaneTerminal Hotspot="40 35" ListViewHotspot="150 50" Parameter="2d24426f71e74c43aa886548cbb7e30a" />
+						<ConnectorPaneTerminal Hotspot="15 40" />
+						<ConnectorPaneTerminal Hotspot="25 40" />
+					</ConnectorPane>
+					<JavaScriptLibraryDiagramParameter CallDirection="Input" Id="67f5bcca64474513a2884b8092c2974a" IsError="True" Name="error in" />
+					<JavaScriptLibraryDiagramParameter CallDirection="Output" Id="2d24426f71e74c43aa886548cbb7e30a" IsError="True" Name="error out" />
+					<JavaScriptLibraryParameter Id="1eea50bc9e3c47509b85a213e4e51595" IsReturnParameter="True" Name="return">
+						<JavaScriptType ActualDataType="@62e2c1a31515459ca84618133395e263" Id="40e9a868c5994cf783c8d203a5f7326c" />
+						<JavaScriptLibraryDiagramParameter CallDirection="Output" Id="55ed9937386a4fa180e76a53a2abc6b7" Name="return out" Visible="False" />
+					</JavaScriptLibraryParameter>
+					<JavaScriptLibraryParameter Id="7ab1b40bd921454eabb58ae98db43c28" Name="runtime refnum">
+						<JavaScriptType ActualDataType="@ecc1c90b0ce94876bce3317b87914560" Id="aaea3878fdea4fd39638865ac188f92d" />
+						<JavaScriptLibraryDiagramParameter CallDirection="Input" Id="4af21f89e3ff4ed4a1042ccd47b554bf" Name="runtime refnum" />
+					</JavaScriptLibraryParameter>
+					<JavaScriptLibraryParameter Id="6b4de408154348dfa40ce80534d2efcc" Name="name">
+						<JavaScriptType ActualDataType="@084d6b0b901d4b1b86b6681c15397cbf" Id="118a1070454f457fb0d99a606aedbd41" />
+						<JavaScriptLibraryDiagramParameter CallDirection="Input" Id="1bddbe204e9a443ba1f62b2c4f3aadd8" Name="name" />
+					</JavaScriptLibraryParameter>
+					<JavaScriptLibraryParameter Id="9b318783396e4492bf4cd2bdd6ec8d24" Name="value">
+						<JavaScriptType ActualDataType="@5d78558866fb46e9b89c3fdcd5dd05e0" Id="e7650f095d7d41bea50735373f2e004b" />
+						<JavaScriptLibraryDiagramParameter CallDirection="Input" Id="df98f59cd66b4bc3ab4ef8647706d7dc" Name="value" />
 					</JavaScriptLibraryParameter>
 				</JavaScriptLibraryEntryPoint>
 			</EmbeddedDefinitionReference>

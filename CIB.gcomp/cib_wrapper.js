@@ -114,11 +114,28 @@
     });
   };
 
+  const setInputValue = function (refnum, name, value) {
+    return new Promise(function (resolve) {
+      const runtime = refnumManager.getObject(refnum);
+
+      runtime.workerSetInputValueDone = arg => {
+        resolve();
+      };
+
+      runtime.worker.postMessage({
+        function: 'setInputValue',
+        name,
+        value
+      });
+    });
+  };
+
   window.cib_wrapper = {
     createCompiler,
     executeCompiler,
     createRuntime,
     executeRuntime,
-    getSavedResult
+    getSavedResult,
+    setInputValue
   };
 }());
