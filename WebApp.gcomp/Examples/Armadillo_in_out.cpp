@@ -1,4 +1,11 @@
 // cib:{"fetch":"armadillo-9.200.7.zip", "system_includes":["include"], "unzip_compiler":true}
+#define ARMA_DONT_USE_LAPACK
+#define ARMA_DONT_USE_BLAS
+#define ARMA_DONT_USE_NEWARP
+#define ARMA_DONT_USE_ARPACK
+#define ARMA_DONT_USE_SUPERLU
+#define ARMA_DONT_USE_HDF5
+#define ARMA_DONT_USE_OPENMP
 
 extern "C" void loadInput(const char* name, void* start, int size);
 extern "C" void saveResult(const char* name, void* start, int size);
