@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="75547C09BA89F9BA7EA8EFC746CD27D528AA3F9EB7B5AB59302C40C60590E862EB552EB1135CDFB01FB16A82D17D9FA396D021833D2AB0CA3DBE3F0A91B186E6" Timestamp="1D4CCB054D84EA1" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="97BBFE3042C901FF48C22A1C55EFD7BFF6B213F2188F49046D3B4AC8FF940B8DE51153C7FC767226629305050A5B09062BFF15DC28D1449B4C8152FA4F1E1559" Timestamp="1D4D16BBCB7D599" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
-		<ParsableNamespace AssemblyFileVersion="6.4.0.2633" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="6.1.0.1" Version="6.2.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="6.4.0.2633" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="6.3.0.49152" Version="6.3.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="6.4.0.2631" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
-		<ApplicationVersionInfo Build="6.4.0.2633" Name="LabVIEW NXG" Version="3.1.0" />
+		<ParsableNamespace AssemblyFileVersion="6.4.0.2801" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="6.1.0.1" Version="6.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.4.0.2801" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="6.3.0.49152" Version="6.3.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.4.0.2801" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
+		<ApplicationVersionInfo Build="6.4.0.2801" Name="LabVIEW NXG" Version="3.1.0" />
 	</SourceModelFeatureSet>
 	<ComponentDefinition DefaultConfigurationName="Configuration1" Id="1" RootNamespaceId="14" xmlns="http://www.ni.com/GComponent.xsd">
 		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
@@ -17,6 +17,15 @@
 			<CompilerSymbolTable Id="11" xmlns="http://www.ni.com/PlatformFramework" />
 			<WebApplicationOutputTypeProperties Id="12" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" />
 			<ComponentItemProperties AssociatedEnvoyId="15" Id="16" TopLevel="True" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="eae83b8f67dd4e1fbd61dd2ab062b9c7" Id="90f7a8c6e8534bb2855c8f0f7f7bdc9d" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="6865511442294cc48c9c94518777bed3" Id="4a4ecd493a4e41a19f3a5805a49a969c" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="d78033f25485440e9bf6f51c3549653c" Id="2a3de274f8a74012bb279669f7c4bfda" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="e43caf7b7eb543928b923b24a15d7ea8" Id="e8db73ce2bff4a73b4f4b9d0aad0b8ec" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="18e76fe65bb24caaa2ff4bc14921b126" Id="49ed9f39c8ce482bb22283fb76391590" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="6b13cc53eb4f420099c97466649b35d6" Id="6381bf22021240a393942675d1464203" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="b41bee2b5d2b4df4a9ce1d1f67801bd8" Id="4640188e3f604a8eb2e27f1419bb4805" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="c337fb24a5ae43e5b3399b145e74376a" Id="2dbabc6ddba14982be94e77370ce3509" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="c0047be9dfd2459bb4e3a7a6ae6b8d32" Id="342a1f1b76894e5197222225968d6166" />
 		</ComponentConfiguration>
 	</ComponentDefinition>
 	<EnvoyManagerFile Id="6" xmlns="http://www.ni.com/PlatformFramework">
@@ -26,9 +35,55 @@
 			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="14" Name="WebApp">
 				<SourceFileReference Id="15" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Index.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Index.gviweb" />
 				<SourceFileReference Id="7ebef9a350fe4c13ad3129e4c3993a1c" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Examples.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Examples.gviweb" />
-				<SourceFileReference Bindings="EnvoyManager" Id="ab3f63afcdbc47d592df9d525a002372" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Examples.gtype" StoragePath="Examples.gtype\Examples.gtype" />
 				<SourceFileReference Id="3c6ad974a934163a60fa7e2dff9a65b" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="PanelController.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="PanelController.gviweb" />
 				<SourceFileReference Bindings="EnvoyManager" Id="419cff7a1e8a43258bb2d72d6d392bc0" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="PanelAction.gtype" StoragePath="PanelAction.gtype\PanelAction.gtype" />
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="713ca3075e484081a2e808cde5cc1182" Name="Examples">
+					<EmbeddedDefinitionReference Id="eae83b8f67dd4e1fbd61dd2ab062b9c7" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="Examples.json">
+						<ExternalFile>
+							<p.StoragePath>"Examples\\Examples.json"</p.StoragePath>
+						</ExternalFile>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="6865511442294cc48c9c94518777bed3" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="Armadillo.cpp">
+						<ExternalFile>
+							<p.StoragePath>"Examples\\Armadillo.cpp"</p.StoragePath>
+						</ExternalFile>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="d78033f25485440e9bf6f51c3549653c" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="Armadillo_in_out.cpp">
+						<ExternalFile>
+							<p.StoragePath>"Examples\\Armadillo_in_out.cpp"</p.StoragePath>
+						</ExternalFile>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="e43caf7b7eb543928b923b24a15d7ea8" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="HelloWorld.cpp">
+						<ExternalFile>
+							<p.StoragePath>"Examples\\HelloWorld.cpp"</p.StoragePath>
+						</ExternalFile>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="18e76fe65bb24caaa2ff4bc14921b126" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="IndexedDB.cpp">
+						<ExternalFile>
+							<p.StoragePath>"Examples\\IndexedDB.cpp"</p.StoragePath>
+						</ExternalFile>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="6b13cc53eb4f420099c97466649b35d6" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="RunJavaScript.cpp">
+						<ExternalFile>
+							<p.StoragePath>"Examples\\RunJavaScript.cpp"</p.StoragePath>
+						</ExternalFile>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="b41bee2b5d2b4df4a9ce1d1f67801bd8" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="Sigpack.cpp">
+						<ExternalFile>
+							<p.StoragePath>"Examples\\Sigpack.cpp"</p.StoragePath>
+						</ExternalFile>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="c337fb24a5ae43e5b3399b145e74376a" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="Timer.cpp">
+						<ExternalFile>
+							<p.StoragePath>"Examples\\Timer.cpp"</p.StoragePath>
+						</ExternalFile>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="c0047be9dfd2459bb4e3a7a6ae6b8d32" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="VirtualFileSystem.cpp">
+						<ExternalFile>
+							<p.StoragePath>"Examples\\VirtualFileSystem.cpp"</p.StoragePath>
+						</ExternalFile>
+					</EmbeddedDefinitionReference>
+				</NameScopingEnvoy>
 			</NameScopingEnvoy>
 		</EmbeddedDefinitionReference>
 		<NameScopingEnvoy Id="9" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionContentReferenceRoot" Name="WebApp.gcomp" NameTracksFileName="True">
